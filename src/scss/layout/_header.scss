@@ -1,0 +1,45 @@
+.header{
+    background: $brand-primary-dark;
+    min-height: 60px;
+    .logo{
+        height: 60px;
+        a{
+            cursor: pointer;
+            width: 100%;
+            img{
+                display: block;
+                height: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .menu-block {
+        .nav-justified {
+            margin-top: 5px;
+            > li {
+                padding-right: 5px;
+                > a {
+                    transition: all .25s ease;
+                    color: $nav-a-color;
+                    padding: 14px 15px;
+                    cursor: pointer;
+                    &:hover,
+                    &:focus {
+                        text-decoration: none;
+                        color: $nav-active-color;
+                        background-color: $nav-active-bg;
+                        border-radius: 10em;
+                    }
+                }
+
+                &.active {
+                    > a {
+                        background-color: $nav-active-bg;
+                        border-radius: 10em;
+                        color: $nav-active-color;
+                    }
+                }
+            }
+        }
+    }
+}

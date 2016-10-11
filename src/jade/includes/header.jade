@@ -1,0 +1,15 @@
+header.header
+    .container
+        .row
+            .logo.col-xs-5
+                a(href="index.html")
+                    img(src="./../images/logo.png")
+            .menu-block.col-xs-10.col-xs-offset-1
+                ul.nav.nav-justified
+                    -
+                        list=["Новости", "Офферы", "Рекламодателям", "Вебмастерам", "Правила"]
+                    each item in list
+                        li
+                            a(href="javascript:void(0)")=item
+                    li.active
+                        a(href="javascript:void(0)") Контакты

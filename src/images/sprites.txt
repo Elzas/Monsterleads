@@ -1,0 +1,14 @@
+.facebook, .rss, .twitter, .vk
+{ display: inline-block; background: url('png.png') no-repeat; overflow: hidden;
+text-indent: -9999px; text-align: left; }
+
+.facebook { background-position: -5px -0px; width: 30px; height: 30px; }
+.rss { background-position: -40px -0px; width: 30px; height: 30px; }
+.twitter { background-position: -5px -35px; width: 30px; height: 30px; }
+.vk { background-position: -40px -35px; width: 30px; height: 30px; }
+
+
+<div class="facebook"></div>
+<div class="rss"></div>
+<div class="twitter"></div>
+<div class="vk"></div>

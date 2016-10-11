@@ -1,0 +1,23 @@
+{
+  "name": "monster",
+  "description": "monster test",
+  "authors": [
+    "Elzas"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "building"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.5.0",
+    "jquery": "~2.1.4"
+  }
+}
